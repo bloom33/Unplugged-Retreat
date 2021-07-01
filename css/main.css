@@ -129,12 +129,15 @@ footer p {
   justify-content: center;
 }
 
-/***** BODY STYLES *****/ 
+/***** MOBILE BODY STYLES *****/ 
+
+/*========== Homepage ==========*/
 
 /* HERO */
 .hero-area {
   align-items: center;
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
 }
 
@@ -148,15 +151,15 @@ aside {
 
 /* FEATURES */
 .features {
-  align-items: center;
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
 }
 
 .features .feature-items {
   align-items: center;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: center;
 }
 
@@ -168,6 +171,7 @@ aside {
   justify-content: center;
 }
 
+/*========== About Page ==========*/
 /* MISSION */
 .mission {
   align-items: center;
@@ -184,6 +188,7 @@ aside {
   justify-content: center;
 }
 
+/*========== FAQ Page ==========*/
 /* FAQ */
 .faq {
   align-items: center;
