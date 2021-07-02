@@ -234,8 +234,11 @@ footer .social-icons p {
 }
 
 .hero-area h1 { 
-  font-size: 'Poppins', sans-serif;
-  font-size: 2.25em;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25em; 
+  font-weight: 500;
+  line-height: 1.2em;
+/*! why/how is line-height less than font-size? */
 }
 
 /* ASIDE */
@@ -244,6 +247,32 @@ aside {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+}
+
+aside .form { 
+  margin-top: 30px;
+}
+
+input [type=text] { 
+  box-sizing: border-box;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+  width: 100%;
+}
+
+input [type=button] {
+  background-color: #2a423a;
+  border: none;
+  color: #e2e3ed;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif; 
+  font-size: 1.125em;
+  font-weight: 500;
+  margin-top: 20px;
+  padding: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
 }
 
 /* FEATURES */
@@ -281,12 +310,14 @@ aside {
 }
 
 .reviews h2 { 
-  margin-bottom: 30px;
+  margin-bottom: 30px; 
+  line-height: 1.25em;
 }
 
-.reviews h3 {
+.reviews h3 { 
+  line-height: 1.333em;
   padding: 20px 0 20px 10px;
-  width: 55%;
+  width: 55%; 
 }
 
 /*========== About Page ==========*/
@@ -306,6 +337,10 @@ aside {
   justify-content: center;
 }
 
+.contact-content p { 
+  margin: 0;
+}
+
 /*========== FAQ Page ==========*/
 /* FAQ */
 .faq {
@@ -319,7 +354,21 @@ aside {
   align-items: center;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: center; 
+  margin: 50px 0 0 0;
+}
+
+.faq h2 { 
+  line-height: 1em;
+  margin-bottom: 40px;
+}
+
+.faq content { 
+  margin-bottom: 50px;
+}
+
+.faq h4 { 
+  line-height: 1.333em;
 }
 
 /* ==========================================================================
