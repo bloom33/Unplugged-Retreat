@@ -352,9 +352,111 @@ aside {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /* Tablet Styles */
+
+  /***** GENERAL STYLES *****/
+  .content-wrapper { 
+    max-width: 640px;
+    margin: 90px 0;
+  }
+
+  /***** HEADER STYLES *****/
+
+  header { 
+    justify-content: center;
+  }
+
+  header .content-wrapper {
+    justify-content: center; 
+    width: 640px;
+  }
+
+  header nav { 
+    width: 160px;
+  }
+
+  header nav ul { 
+    justify-content: space-around;
+  }
+
+  .header-divider { 
+    display: none;
+  }
+
+  /* HERO */
+
+  /* ASIDE */
+
+  aside .content-wrapper { 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 50px 0;
+  }
+
+  aside .content-wrapper .form-description, 
+  aside .content-wrapper form {
+    width: 240;
+    margin: 0;
+  }
+
+  /* FEATURES */
+
+  .features article {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: ;
+  }
+
+  .features .feature-items-description { 
+    width: 200px;
+  }
+
+  /* REVIEWS */
+
+  .reviews article {
+    display: flex;
+    justify-content: center;
+  }
+
+  .reviews article div { 
+    width: 640px;
+  }
+
+  /* FOOTER */
+
+  footer .content-wrapper {
+    width: ;
+    margin: 100px 0;
+  }
+  
+  .footer-content { 
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer .contact { 
+
+  }
+
+  footer .copywright {
+    padding: ; 
+    width: 320px;
+  }
 }
+
+@media only screen and (min-width:1200px) {
+  /* Desktop STyles */
+
+  .content-wrapper {
+
+  }
+}
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
