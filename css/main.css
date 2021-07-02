@@ -352,8 +352,9 @@ aside {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 768px) {
-  /* Tablet Styles */
+@media only screen and (min-width: 768px) { 
+
+  /* !!! TABLET STYLES !!! */
 
   /***** GENERAL STYLES *****/
   .content-wrapper { 
@@ -384,6 +385,7 @@ aside {
 
   .header-divider { 
     display: none;
+  /* ! why 'none' instead of 'flex'?*/
   }
 
   /* HERO */
@@ -457,7 +459,7 @@ aside {
     display: flex; 
     justify-content: space-between; 
     padding-top: 20px;
-  /* why padding top? */
+  /* ! why padding top? */
   }
 
   .mission-content p {
@@ -470,7 +472,7 @@ aside {
 
   .contact-content { 
     align-items: flex-start; 
-  /* why flex-start instead of center? */
+  /* ! why flex-start instead of center? */
     display: flex;
     justify-content: space-between; 
   }
@@ -483,20 +485,74 @@ aside {
 
   .faq-content { 
     flex-basis: 45%;
-  /* why flex-basis instead of width property? */
+  /* ! why flex-basis instead of width property? */
   }
 
   .faq h2 { 
     width: 100%;
-  /* why 100% vs 80% of contact-section content-wrapper h2? */
+  /* ! why 100% vs 80% of contact-section content-wrapper h2? */
   }
 }
 
 @media only screen and (min-width:1200px) {
-  /* Desktop STyles */
+
+  /* !!!! DESKTOP STYLES !!! */
 
   .content-wrapper {
+    margin: 100px 0;
+    max-width: 1000px;
+  }
+    /*-------------------- HOME PAGE --------------------*/
 
+  /* HERO */
+
+  .hero-area h1 { 
+    width: 80%;
+  }
+
+  /* ASIDE */
+
+  aside .content-wrapper { 
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description, 
+  aside .content-wrapper form {
+    width: 45%;
+    margin: 0;
+  }
+
+  /* FEATURES */
+
+  .features article {
+    flex-basis: 30%;
+  }
+
+  .features h2 { 
+    width: 70%;
+  }
+
+  /* REVIEWS */
+
+  .reviews article div { 
+    width: 50%;
+  /* ! why include this porperty when the value is the same? */
+  }
+
+  /* FOOTER */
+
+  /*-------------------- ABOUT PAGE --------------------*/
+
+  .mission h2,
+  .contact-section .content-wrapper h2 { 
+    width: 100%;
+  }
+
+  /*-------------------- FAQ PAGE --------------------*/
+
+  .faq h2 { 
+    width: 100%;
+  /* ! why include this porperty when the value is the same? */
   }
 }
 
