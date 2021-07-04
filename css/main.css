@@ -275,7 +275,7 @@ aside {
 }
 
 aside .form { 
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 aside .form-description h3 { 
@@ -332,6 +332,11 @@ input[type=button] {
   margin-bottom: 40px;
 }
 
+.features i { 
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features p {
   margin: 0; 
   text-align: center;
@@ -343,14 +348,6 @@ input[type=button] {
   display: flex;
   flex-flow: row wrap;
   justify-content: center; 
-}
-
-.reviews figure { 
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  width: 50%;
 }
 
 .reviews h2 { 
@@ -721,6 +718,14 @@ input[type=button] {
   .reviews article div { 
     width: 50%;
   /* ! why include this porperty when the value is the same? */
+  }
+
+  .reviews figure { 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 50%;
   }
 
   /* FOOTER */
