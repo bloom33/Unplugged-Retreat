@@ -791,12 +791,9 @@ input[type=button] {
 
   /* !!!! DESKTOP STYLES !!! */
 
+    /***** GENERAL STYLES *****/
   header {
     padding: 15px 0;
-  }
-
-  header nav ul { 
-    justify-content: space-between;
   }
 
   .content-wrapper {
@@ -833,7 +830,7 @@ input[type=button] {
 
   aside .content-wrapper .form-description, 
   aside .content-wrapper form {
-    width: 45%;
+    width: 20%;
     margin: 0;
   }
 
@@ -860,6 +857,8 @@ input[type=button] {
 
   .reviews h2 {
     padding-bottom: 50px; 
+    padding-left: 0px;
+    width: 750px; 
   }
 
   .reviews figure { 
