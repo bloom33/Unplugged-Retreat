@@ -150,9 +150,9 @@ address {
 
 header, 
 footer {
+  display: flex;
   align-items: center;
   background-color: #202322;
-  display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
@@ -162,8 +162,8 @@ header {
 }
 
 header .content-wrapper { 
-  align-items: center;
   display: flex;
+  align-items: center;
   flex-flow: row wrap;
   justify-content: center; 
   margin: 0;
@@ -184,8 +184,8 @@ header .content-wrapper {
 }
 
 header nav {
-  align-items: center;
   display: flex;
+  align-items: center;
   flex-flow: row wrap;
   font-size: 1.125em;
   font-weight: 700;
@@ -232,17 +232,17 @@ footer p {
 }
 
 footer .social-icons{ 
-  align-items: center;
   display: flex;
+  align-items: center;
   justify-content: space-around;
 }
 
 footer .social-icons p {
+  display: flex;
   align-items: center;
   background-color: #527158;
   border-radius: 80%;
   /*! specifics of border-radius property?*/
-  display: flex;
   height: 40px;
   justify-content: center;
   width: 40px;
@@ -259,11 +259,11 @@ footer .social-icons p i {
 
 /* HERO */
 .hero-area {
+  display: flex;
   background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap; 
+  flex-flow: row wrap;
+  justify-content: center; 
   min-height: 500px;
 }
 
@@ -277,9 +277,9 @@ footer .social-icons p i {
 
 /* ASIDE */
 aside {
-  background-color: #527158;
-  align-items: center;
   display: flex;
+  align-items: center;
+  background-color: #527158;
   flex-flow: row wrap;
   justify-content: center;
 }
@@ -316,9 +316,9 @@ input[type=button] {
 
 /* FEATURES */
 .features {
+  display: flex;
   background: url('../img/rawpixel-800820-unsplash1.jpg') center no-repeat;
   background-size: cover;
-  display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
@@ -330,11 +330,10 @@ input[type=button] {
 }
 
 .features .feature-items {
-  align-items: center;
   display: flex;
+  align-items: center;
   flex-flow: row wrap;
   justify-content: center; 
-  width: 55%;
 }
 
 .features h2 {
@@ -354,8 +353,8 @@ input[type=button] {
 
 /* REVIEWS */
 .reviews {
-  background-color: #2a423a;
   display: flex;
+  background-color: #2a423a;
   flex-flow: row wrap;
   justify-content: center; 
 }
@@ -383,9 +382,9 @@ input[type=button] {
 /*========== About Page ==========*/
 /* MISSION */
 .mission {
+  display: flex;
   align-items: center;
   background-color: #527158;
-  display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
@@ -409,9 +408,9 @@ input[type=button] {
 
 /* CONTACT */
 .contact-section {
-  background-color: #2a423a;
-  align-items: center;
   display: flex;
+  align-items: center;
+  background-color: #2a423a;
   flex-flow: row wrap;
   justify-content: center;
 }
@@ -423,16 +422,16 @@ input[type=button] {
 /*========== FAQ Page ==========*/
 /* FAQ */
 .faq {
+  display: flex;
   align-items: center;
   background-color: #527158;
-  display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
 .faq .content-wrapper {
-  align-items: center;
   display: flex;
+  align-items: center;
   flex-flow: row wrap;
   justify-content: center; 
   margin: 50px 0 0 0;
@@ -625,8 +624,9 @@ input[type=button] {
   .features article {
     align-items: center;
     display: flex; 
+    font-size: .8em;
     flex-basis: 50%;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: space-around; 
    }
 
@@ -634,7 +634,7 @@ input[type=button] {
     margin: 20px;
   }
 
-  .features .feature-items-description { 
+  .features .feature-item-description { 
     width: 60%;
   }
 
@@ -841,8 +841,14 @@ input[type=button] {
   /* FEATURES */
 
   .features article {
+    align-items: center;
+    display: flex; 
+    font-size: .8em;
     flex-basis: 30%;
-  }
+    flex-flow: column wrap;
+    justify-content: space-around; 
+   }
+
 
   .features h2 { 
     width: 70%;
@@ -887,7 +893,7 @@ input[type=button] {
     padding-bottom: 37.5%;
   }
 
-  .contact-content h4 {
+  .footer-content h4 {
     font-size: 1.875em;
   }
 
