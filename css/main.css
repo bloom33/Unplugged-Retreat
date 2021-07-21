@@ -678,8 +678,8 @@ input[type=button] {
   }
   
   .footer-content { 
-    align-items: center;
     display: flex;
+    align-items: center;
     justify-content: space-between;
   }
 
@@ -709,8 +709,8 @@ input[type=button] {
 
   /* mission */
   .mission-content { 
-    align-items: center;
-    display: flex; 
+    display: flex;
+    align-items: center; 
     flex-flow: row wrap; 
     padding-top: 20px;
   /* ! why padding top? */
@@ -736,9 +736,9 @@ input[type=button] {
   }
 
   .contact-content { 
+    display: flex;
     align-items: flex-start; 
   /* ! why flex-start instead of center? */
-    display: flex;
     justify-content: space-between; 
   }
 
@@ -875,7 +875,6 @@ input[type=button] {
     font-weight: 500;
   }
 
-
   .mission h1,
   .contact-section .content-wrapper { 
     width: 95%;
@@ -890,7 +889,16 @@ input[type=button] {
   }
 
   .contact-section .content-wrapper { 
-    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  address .gen-info,
+  address .chat-info { 
+    display: flex;
+    width: 55%;
+    margin: 0;
   }
 
   .footer-content h4 {
