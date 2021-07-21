@@ -892,6 +892,19 @@ input[type=button] {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    margin: 75px 0;
+  }
+
+  .contact-section .content-wrapper h2 { 
+    font-size: 3em;
+    font-weight: 500;
+    margin-left: 30px;
+    width: 100%;
+  }
+
+  .contact-section .content-wrapper h3, 
+  .contact-section .content-wrapper .address {
+    width: 100%;
   }
 
   address .gen-info,
