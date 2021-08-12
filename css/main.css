@@ -98,7 +98,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em; 
   text-align: left;
-/*! text-align:left because of the flexible nature of the divs? */
 }
 
 ul,
@@ -245,7 +244,6 @@ footer .social-icons p {
   align-items: center;
   background-color: #527158;
   border-radius: 80%;
-  /*! specifics of border-radius property?*/
   height: 40px;
   justify-content: center;
   width: 40px;
@@ -723,7 +721,6 @@ input[type=button] {
     align-items: center; 
     flex-flow: row wrap; 
     padding-top: 20px;
-  /* ! why padding top? */
   }
 
   .mission-content p {
@@ -750,7 +747,6 @@ input[type=button] {
   .contact-content { 
     display: flex;
     align-items: flex-start; 
-  /* ! why flex-start instead of center? */
     justify-content: space-between; 
   }
 
@@ -774,13 +770,11 @@ input[type=button] {
 
   .faq-content { 
     flex-basis: 45%;
-  /* ! why flex-basis instead of width property? */
   }
 
   .faq h2 { 
     margin-bottom: 25px;
     width: 100%;
-  /* ! why 100% vs 80% of contact-section content-wrapper h2? */
   }
 
   .faq p {
@@ -925,7 +919,6 @@ input[type=button] {
   .faq h2 { 
     font-size: 3em;
     width: 100%;
-  /* ! why include this porperty when the value is the same? */
   }
 
   .faq h4,
@@ -1009,7 +1002,6 @@ input[type=button] {
 
   .reviews article div { 
     width: 50%;
-  /* ! why include this porperty when the value is the same? */
   }
 
   .reviews .content-wrapper { 
@@ -1088,7 +1080,6 @@ input[type=button] {
   .faq h2 { 
     font-size: 3em;
     width: 100%;
-  /* ! why include this porperty when the value is the same? */
   }
 
   .faq h4,
