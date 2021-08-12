@@ -136,6 +136,7 @@ img {
 }
 
 figure { 
+  display: flex;
   margin: 0;
 }
 
@@ -191,6 +192,7 @@ header nav {
   font-size: 1.125em;
   font-weight: 700;
   justify-content: space-around;
+  padding-right: 40px;
   text-transform: uppercase;
   width: 60%;
 }
@@ -273,7 +275,6 @@ footer .social-icons p i {
   font-size: 2.25em; 
   font-weight: 500;
   line-height: 1.2em;
-/*! why/how is line-height less than font-size? */
 }
 
 /* ASIDE */
@@ -388,6 +389,13 @@ input[type=button] {
   background-color: #527158;
   flex-flow: row wrap;
   justify-content: center;
+}
+
+.mission h1{ 
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25em; 
+  font-weight: 500;
+  line-height: 1.2em;
 }
 
 /* MAP */
@@ -587,7 +595,7 @@ input[type=button] {
     display: none;
   }
 
-  /*-------------------- HOME PAGE --------------------*/
+  /*-------------------- HOME PAGE - Tablet --------------------*/
 
   /* HERO */
   
@@ -706,9 +714,10 @@ input[type=button] {
     width: 100%;
   }
 
-  /*-------------------- ABOUT PAGE --------------------*/
+  /*-------------------- ABOUT PAGE - Tablet --------------------*/
 
-  /* mission */
+  /* Mission */
+
   .mission-content { 
     display: flex;
     align-items: center; 
@@ -726,12 +735,14 @@ input[type=button] {
     margin-top: 10px;
   }
 
-  /* map */
+  /* Map */
+
   .map figure {
     padding-bottom: 45.5%;
   }
 
-  /* contact */
+  /* Contact */
+
   .contact-section .content-wrapper h2 { 
     width: 80%;
   }
@@ -748,12 +759,13 @@ input[type=button] {
     width: 45%;
   }
 
-  /* footer */
+  /* Footer */
+
   .contact-content h4 {
     font-size: 1.5em;
   }
 
-  /*-------------------- FAQ PAGE --------------------*/
+  /*-------------------- FAQ PAGE -Tablet --------------------*/
 
   .faq .content-wrapper { 
     justify-content: space-between; 
@@ -782,6 +794,158 @@ input[type=button] {
   }
 }
 
+
+@media only screen and (min-width: 1024px) {
+  /* !!!! LARGE TABLET STYLES !!! */
+
+    /***** GENERAL STYLES *****/
+
+  .content-wrapper {
+    max-width: 875px;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  h3,
+  h4 {
+      font-size: 1.875em;
+  }
+
+  p {
+      font-size: 1.125em;
+      line-height: 1.333;
+  }
+
+  /*-------------------- HOME PAGE - Large Tablet --------------------*/
+
+  /* FEATURES */
+  
+
+  .features h2 { 
+    font-size: 2.85em;
+    width: 90%;
+  }
+
+  /* REVIEWS */
+
+  .reviews article div { 
+    width: 45%;
+  }
+
+  .reviews .content-wrapper { 
+    margin-top: 60px;
+  }
+
+  .reviews h2 {
+    font-size: 2.85em;
+    margin-bottom: 50px;
+    margin-left: 20px;
+  }
+
+  /*-------------------- ABOUT PAGE - Large Tablet --------------------*/
+
+  /* Mission */
+
+  .mission {
+    padding-right: 30px;
+  }
+
+  .mission .content-wrapper { 
+    margin: 75px 0;
+  }
+
+  .mission h1{ 
+    font-size: 3.25em;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+
+  .mission h1,
+  .contact-section .content-wrapper { 
+    width: 95%;
+  }
+
+  .mission-content {
+    align-items: flex-start;
+  }
+
+  /* Map */
+
+  .map figure {
+    padding-bottom: 40%;
+  }
+
+  /* Contact */
+
+  .contact-section .content-wrapper { 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 75px 0;
+  }
+
+  .contact-section .content-wrapper h2 { 
+    font-size: 3em;
+    font-weight: 500;
+    margin-left: 35px;
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  .contact-section .content-wrapper h3, 
+  .contact-section .content-wrapper .address {
+    width: 100%;
+  }
+
+  address .gen-info,
+  address .chat-info { 
+    display: flex;
+    width: 55%;
+    margin: 0;
+  }
+
+  footer {
+    padding-right: 75px;
+  }
+
+  .footer-content h4 {
+    font-size: 1.875em;
+  }
+
+  /*-------------------- FAQ PAGE - Large Tablet --------------------*/
+
+  .faq .content-wrapper {
+    margin: 25px;
+    padding: 90px;
+    padding-top: 40px;
+  }
+
+  .faq h2 { 
+    font-size: 3em;
+    width: 100%;
+  /* ! why include this porperty when the value is the same? */
+  }
+
+  .faq h4,
+  .faq p {
+      font-size: 1.125em;
+      line-height: 1;
+  }
+
+  footer {
+    padding: 80px;
+  }
+
+  .footer-content h4 {
+    font-size: 1.875em;
+  }
+
+
+}
+
+
 @media only screen and (min-width: 1200px) {
 
   /* !!!! DESKTOP STYLES !!! */
@@ -805,7 +969,7 @@ input[type=button] {
       font-size: 1.125em;
       line-height: 1.333;
   }
-    /*-------------------- HOME PAGE --------------------*/
+    /*-------------------- HOME PAGE - Deskop --------------------*/
 
   /* HERO */
 
@@ -865,7 +1029,7 @@ input[type=button] {
   }
 
 
-  /*-------------------- ABOUT PAGE --------------------*/
+  /*-------------------- ABOUT PAGE - Desktop --------------------*/
 
   .mission .content-wrapper { 
     margin: 75px 0;
