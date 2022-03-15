@@ -1,0 +1,110 @@
+.sticky {
+    position: -webkit-sticky;  /* Safari */
+	  position: sticky;
+	  top: 0;  
+    align-self: flex-start;
+
+   
+}
+
+/*.header-nav {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    font-size: 1.125em;
+    font-weight: 700;
+    justify-content: space-around;
+    padding-right: 40px;
+    text-transform: uppercase;
+    width: 60%; 
+
+}
+
+/*How do I add these styles to the NavBar.js file?*/
+/*header .content-wrapper { 
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: center; 
+    margin: 0;
+  }*/
+
+.header-divider {
+    background: #3a3a3a; 
+    height: 1px;
+    width: 100%;
+  }
+  
+  .header-figure {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 60%;
+  }
+
+.header-nav {
+    display: flex;
+    
+    font-size: 1.125em;
+    font-weight: 700;
+    justify-content: space-around;
+    padding-right: 40px;
+    text-transform: uppercase;
+    width: 60%; 
+
+  
+  }
+  
+  .header-list {
+    display: flex;
+    justify-content: space-between; 
+    padding-right: 40px;
+    width: 100%;
+  }
+  
+  .header-list-item {
+    font-size: 1.13em;
+  }
+
+
+
+  /*
+    .header-divider {
+    background: #3a3a3a; 
+    height: 1px;
+    width: 100%;
+  }
+  
+  .header-figure {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 60%;
+  }
+
+header nav {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    font-size: 1.125em;
+    font-weight: 700;
+    justify-content: space-around;
+    padding-right: 40px;
+    text-transform: uppercase;
+    width: 60%;
+  }
+  
+  header nav ul {
+    display: flex;
+    justify-content: space-between; 
+    padding-right: 40px;
+    width: 100%;
+  }
+  
+  header nav ul li  {
+    font-size: 1.13em;
+  } */
+
+

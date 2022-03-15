@@ -1,9 +1,8 @@
 {
-  "name": " ",
+  "name": "unplugged-retreat",
   "version": "0.0.1",
-  "description": "",
-  "keywords": "",
-  "license": "",
+  "keywords": [],
+  "license": "ISC",
   "author": "",
   "scripts": {
     "build": "parcel build index.html",
@@ -12,6 +11,42 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "@babel/core": "^7.17.5",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "i": "^0.3.7",
+    "npm": "^8.5.4",
+    "parcel-bundler": "^1.12.3"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bloom33/Unplugged-Retreat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bloom33/Unplugged-Retreat/issues"
+  },
+  "homepage": "https://github.com/bloom33/Unplugged-Retreat#readme",
+  "description": "",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "modernizr": "^3.12.0",
+    "react": "^17.0.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react",
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
   }
 }

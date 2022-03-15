@@ -1,0 +1,1 @@
+{"version":3,"sources":["js/main.js"],"names":["copywright","document","querySelector"],"mappings":";AAAA,IAAIA,EAAaC,SAASC,cAAc","file":"main.498fb67b.js","sourceRoot":"..","sourcesContent":["let copywright = document.querySelector(\".copywright\");\r\n\r\n"]}

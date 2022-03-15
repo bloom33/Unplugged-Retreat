@@ -171,42 +171,9 @@
     margin: 0;
   }
   
-  .header-divider {
-    background: #3a3a3a; 
-    height: 1px;
-    width: 100%;
-  }
+ /* TRANSFERED HEADER STYLES TO NavBar.css*/
   
-  .header figure {
-    align-items: center;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    width: 60%;
-  }
-  
-  header nav {
-    display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-    font-size: 1.125em;
-    font-weight: 700;
-    justify-content: space-around;
-    padding-right: 40px;
-    text-transform: uppercase;
-    width: 60%;
-  }
-  
-  header nav ul {
-    display: flex;
-    justify-content: space-between; 
-    padding-right: 40px;
-    width: 100%;
-  }
-  
-  header nav ul li {
-    font-size: 1.13em;
-  }
+ 
   
   footer {
     flex-direction: column;
@@ -286,11 +253,11 @@
     justify-content: center;
   }
   
-  aside .form { 
+  aside .sign-up-form { 
     margin-top: 30px;
   }
   
-  aside .form-description h3 { 
+  aside .sign-up-form-description h3 { 
     padding-top: 10px;
   }
   
@@ -617,13 +584,13 @@
       margin: 50px 0;
     }
   
-    aside .content-wrapper .form-description, 
-    aside .content-wrapper .form {
+    aside .content-wrapper .sign-up-form-description, 
+    aside .content-wrapper .sign-up-form {
       width: 45%;
       margin: 0;
     } 
   
-    aside .form h3 { 
+    aside .sign-up-form h3 { 
       margin: 15px 0;
       padding: 10px 0;
     }
