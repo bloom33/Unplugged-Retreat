@@ -45,7 +45,8 @@
 
 .header-nav {
     display: flex;
-    
+    align-items: center;
+    flex-flow: row wrap;
     font-size: 1.125em;
     font-weight: 700;
     justify-content: space-around;
